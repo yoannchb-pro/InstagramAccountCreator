@@ -1,10 +1,10 @@
 {
     "name": "insta-account-creator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Create lot of instagram account with node.js",
-    "main": "index.js",
+    "main": "./src/index.js",
     "scripts": {
-        "test": "node index.js"
+        "test": "node ./src/index.js"
     },
     "keywords": [
         "instagram",
@@ -19,7 +19,8 @@
     "dependencies": {
         "dom-parser": "0.1.6",
         "got": "11.8.2",
-        "puppeteer": "10.0.0"
+        "puppeteer": "10.0.0",
+        "puppeteer-page-proxy": "^1.2.8"
     },
     "author": "yoannchb",
     "license": "MIT"

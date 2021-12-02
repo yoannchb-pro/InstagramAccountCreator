@@ -6,7 +6,7 @@ echo Vous devez posseder node.js et avoir lance au prealable -install.bat-
 echo.
 echo Lancement ...
 
-node index.js
+node ./src/index.js
 
 echo.
 echo Les liste des comptes ce trouve dans le dossier -results-

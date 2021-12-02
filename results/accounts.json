@@ -1,3 +1,18 @@
 [
-    {}
+    {
+        "firstName": "Jonson",
+        "lastName": "Scurria",
+        "username": "jonsonscurria579",
+        "fullName": "Jonson Scurria",
+        "password": "HulcIvIqb",
+        "email": "votcad@spepalblog.com"
+    },
+    {
+        "firstName": "Hofstad",
+        "lastName": "Gilleland",
+        "username": "hofstadgilleland56",
+        "fullName": "Hofstad Gilleland",
+        "password": "5sBqsP84V",
+        "email": "fegsiw@spepalblog.com"
+    }
 ]

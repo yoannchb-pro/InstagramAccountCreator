@@ -1,8 +1,14 @@
-# IntagramNodeAccountCreator
+# IntagramNodeAccountCreator v2
 
 ### !! Not being maintained, feel free to fork !!
 
 <img alt="Creation" src="./assets/creation.png"></img>
+
+## Update
+
+- New email handler because the older version don't work anymore
+- Proxy handler
+- See the creation in the browser
 
 ## Description
 
@@ -20,13 +26,14 @@ Launch "start.bat" or do "node index.js"
 
 Results go in "results" folder
 
-## How to set up the numbers of accounts ?
+## How to configure the project ?
 
-You need to modify in index.js:
+- See config.js file
 
 ```js
-//By default is one
-const config = {
-    nbAccount: 1
+ const config = {
+    proxy: false, //Use a proxy each time it will create a new account ?
+    headless: true, //See the creation of the account in the browser
+    nbAccount: 1 //Number of account to create
 }
 ```
